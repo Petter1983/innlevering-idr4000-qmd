@@ -2,3 +2,21 @@
 
 ::: {#refs}
 :::
+
+
+---
+title: "Referanser"
+output: html_document
+editor_options: 
+chunk_output_type: console
+linestretch: 1.5
+bibliography: Mitt bibliotek.bib
+csl: apa.csl
+
+
+#| message: false
+#| warning: false
+---
+
+
+

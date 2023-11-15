@@ -3,8 +3,8 @@ project:
 
 book:
   title: "Eksamen IDR4000"
-  author: "Kandidatnummer"
-  date: "2022-12-02"
+  author: "410"
+  date: "2023-11-15"
   chapters:
     - index.qmd
     - part1.qmd
@@ -12,9 +12,11 @@ book:
     - part3.qmd
     - part4.qmd
     - part5.qmd
+    - part6.qmd
+    - part7.qmd
     - references.qmd
 
-bibliography: references.bib
+bibliography: Mitt bibliotek.bib
 
 crossref: 
   fig-labels: arabic
