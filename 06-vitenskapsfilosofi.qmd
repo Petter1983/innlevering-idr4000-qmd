@@ -1,19 +1,5 @@
-# Deloppgave 2: Vitenskapsfilosofi
 
-<!-- Part 2: Laboratory report -->
-
----
-title: "Vitenskapsfilosofi"
-output: html_document
-editor_options: 
-chunk_output_type: console
-linestretch: 1.5
-
-#| message: false
-#| warning: false
----
-
-
+# Vitenskapsfilosofi
 
 ## Introduksjon
 
@@ -118,3 +104,6 @@ Ideen bak  subjektiv bayesinisme er at tro og sannsynlighetsregning er basert p�
 Et problem med bayesinisme kan derfor være at sannsynlighetsregningen er subjektiv og at mangel på enighet kan være utfordrende da nye bevis kommer. En annen utfordring kan være at det er vanskeligere å velge mellom to teorier når sannsynligheten er basert på en subjektiv måte.
 
 
+
+
+## Referanser

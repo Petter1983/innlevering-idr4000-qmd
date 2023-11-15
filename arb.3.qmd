@@ -1,13 +1,8 @@
-# Deloppgave 4: Statistisk interferens
-
-<!-- Part 4: Study designs -->
-
 ---
 title: "Statistisk inferens"
 format: html
 editor_options: 
   chunk_output_type: console
-  linestretch: 1.5
 ---
 
 *ARBEIDSKRAV 3*
@@ -22,10 +17,6 @@ library(gt)
 
 ```{r}
 #| echo: false
-#| warning: false
-
-
-
 set.seed(1)
 population <- rnorm(1000000, mean = 1.5, sd = 3)
 
@@ -235,5 +226,4 @@ results_null %>%
 ```
 
 Dersom vi har 2000 observasjoner, slik som i results_null, og signifikansnivået settes til 0,05 eller 5% kan vi anta at 100 av disse vil gi en falsk positiv. $0.05 * 2000 = 100$
-
 

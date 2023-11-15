@@ -1,13 +1,8 @@
-# Deloppgave 3: Regresjonsmodeller
-
-<!-- Part 3: Philosophy of science -->
-
 ---
 title: "Regresjonsmodeller"
 format: html
 editor_options: 
   chunk_output_type: console
-  linestretch: 1.5
 ---
 
 ```{r}
@@ -26,14 +21,13 @@ data("cyclingstudy")
 
 ```
 
+# Arbeidskrav 2
 
-
+Her har vi først laget en figur som viser treningsintensiteten på 2 og 4 mmol/L hos forsøksperson 10 og 3. Videre har vi en figur som estimerer laktat terskel etter Machado. Til slutt tall på en laktat terskel etter en anslått fast verdi.
 
 ## Oppgave 1
 
-
 ### Undersøke treningsintensiteten på 2mmol L-1 og 4mmol L-1 hos forsøksperson 10 og 3
-Her har vi først laget en figur som viser treningsintensiteten på 2 og 4 mmol/L hos forsøksperson 10 og 3. Videre har vi en figur som estimerer laktat terskel etter Machado. Til slutt tall på en laktat terskel etter en anslått fast verdi.
 
 #### Forsøksperson 10
 
@@ -122,7 +116,6 @@ fp3$coefficients[1]
 ```{r}
 #| echo: false
 #| warning: false
-#| include: false
 
 dat <- cyclingstudy %>%
   # Select columns needed for analysis
@@ -156,19 +149,7 @@ delta <- coef(delta_mod)[2]
 poly_threshold <- (-d2 + sqrt((d2^2 - 3 * d3 * (d1 - delta)) )) / (3 * d3)
 
 
-
-
-
-```
-
-
-```{r}
-#| echo: false
-#| warning: false
-#| include: true
-
 # Plotting the results
-
 dat %>%
   ggplot(aes(watt, lactate))  + 
   
@@ -196,9 +177,6 @@ dat %>%
   geom_point()
 ```
 
-
-
-
 ### Laktatterskel på forsøksperson 3 etter Machado "lactate threshold estimated by the maximal deviation method (LTDmax)"
 
 #### Forsøksperson 3
@@ -206,7 +184,6 @@ dat %>%
 ```{r}
 #| echo: false
 #| warning: false
-#| include: false
 
 dat <- cyclingstudy %>%
   # Select columns needed for analysis
@@ -240,14 +217,6 @@ delta <- coef(delta_mod)[2]
 poly_threshold <- (-d2 + sqrt((d2^2 - 3 * d3 * (d1 - delta)) )) / (3 * d3)
 
 
-
-```
-
-```{r}
-#| echo: false
-#| warning: false
-#| include: true
- 
 # Plotting the results
 dat %>%
   ggplot(aes(watt, lactate))  + 
@@ -276,7 +245,6 @@ dat %>%
   geom_point()
 ```
 
-
 ### "Predicted - fixed lactate value"
 
 #### Forsøksperson 10
@@ -284,10 +252,8 @@ dat %>%
 ```{r}
 #| echo: false
 #| warning: false
-#| include: false
 
 # Save a data set of lactate values from participant 10, time-point pre
-
 dat <- cyclingstudy %>%
   select(subject, group, timepoint, lac.125:lac.375) %>%
   pivot_longer(names_to = "watt", 
@@ -297,15 +263,8 @@ dat <- cyclingstudy %>%
               cols = lac.125:lac.375) %>%
   filter(subject == 10, 
          timepoint == "pre", 
-         !is.na(lactate)) 
-
-
-```
-
-```{r}
-#| echo: false
-#| warning: false
-#| include: true
+         !is.na(lactate)) %>% # Remove NA values
+  print()
 
 # Fit the model 
 model <- lm(lactate ~ watt + I(watt^2) + I(watt^3), data = dat)
@@ -320,11 +279,8 @@ new_data$dist <- abs(predict(model, newdata = new_data) - 4)
 
 # Find the smallest value of predicted - fixed lactate value
 new_data %>%
-  filter(dist == min(dist))%>% # Where the dist value equals the minimum dist value
-  gt()
-  
+  filter(dist == min(dist)) # Where the dist value equals the minimum dist value
 ```
-
 
 ### "Predicted - fixed lactate value"
 
@@ -333,10 +289,8 @@ new_data %>%
 ```{r}
 #| echo: false
 #| warning: false
-#| include: false
 
 # Save a data set of lactate values from participant 10, time-point pre
-
 dat <- cyclingstudy %>%
   select(subject, group, timepoint, lac.125:lac.375) %>%
   pivot_longer(names_to = "watt", 
@@ -346,14 +300,8 @@ dat <- cyclingstudy %>%
               cols = lac.125:lac.375) %>%
   filter(subject == 3, 
          timepoint == "pre", 
-         !is.na(lactate))
-  
-```
-
-```{r}
-#| echo: false
-#| warning: false
-#| include: true
+         !is.na(lactate)) %>% # Remove NA values
+  print()
 
 # Fit the model 
 model <- lm(lactate ~ watt + I(watt^2) + I(watt^3), data = dat)
@@ -368,10 +316,8 @@ new_data$dist <- abs(predict(model, newdata = new_data) - 4)
 
 # Find the smallest value of predicted - fixed lactate value
 new_data %>%
-  filter(dist == min(dist))%>% # Where the dist value equals the minimum dist value
-  gt()
+  filter(dist == min(dist)) # Where the dist value equals the minimum dist value
 ```
-
 
 ### Endring i laktat 125 watt og 250 watt
 
@@ -418,7 +364,7 @@ Lage en "calibration curve" som viser effektiviteten av qPCR reaksjonen på "poo
 
 
 
-poolsample1 = read_excel("filer/poolsample1.xlsx")%>%
+poolsample1 = read_excel("poolsample1.xlsx")%>%
   
   
 
@@ -432,7 +378,7 @@ poolsample1 = read_excel("filer/poolsample1.xlsx")%>%
    
     
 
-Pool_sample_2 = read_excel("filer/Pool sample 2.xlsx") %>%
+Pool_sample_2 = read_excel("Pool sample 2.xlsx") %>%
   select(1, `Avg CT`, `Log (sample quan)`) %>%
   rename("Fortynningsserie" = 1,
                 "Snitt CT" = `Avg CT`, 

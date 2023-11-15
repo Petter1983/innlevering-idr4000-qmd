@@ -1,23 +1,18 @@
-# Deloppgave 5: Studiedesign
-
-<!-- Part 1: Analyzing repeated measures experiments -->
-
 ---
 title: "Study design"
-format: html
-editor_options: 
-  chunk_output_type: console
-  linestretch: 1.5
+format: pdf
+bibliography: ref.bib
+csl: apa.csl
 
 #| message: false
 #| warning: false
 ---
 
 
-## Styrketrening for eldre
+# Styrketrening for eldre
 
 
-### Introduksjon
+# Introduksjon
 
 Jeg har valgt ut å se på effektene av styrketrening hos eldre. 
 Et litteratur søk via skolens google scholar og bibliotek ble gjort.
@@ -44,18 +39,18 @@ I følge @ardaliDailyAdjustableProgressive2014 viser reduksjon i styrke i m.quad
 
 
 
-## Spørsmål:
+# Spørsmål:
 Studier har gjerne et primær spørsmål man ønsker å undersøke. Samtidig velger flere studier å se på sekundære spørsmål om andre prediktorer eller utfall som også kan gi verdifulle konklusjoner (@hulleyDesigningClinicalResearch2013a).
 
 
 
-### Sekundære spørsmål
+## Sekundære spørsmål
 
 Det er mange tverrsnittsstudier og kohortstudier (@hulleyDesigningClinicalResearch2013a) innenfor feltet styrketrening for eldre hvor målet på studiene bl.a. er å se på økende muskelstyrke ved en intervensjon. 
 I @ishigakiEffectivenessMuscleStrengthening2014 har de sett på flere studier og de konkluderer med at den metodologiske kvaliteten på studiene på dette området viser god effekt på fall forebygging hos eldre ved bruk av styrketrening på underekstremitetene. Allikevel er intervensjonene på mange studier dårlig beskrevet.
 
 
-## Design
+# Design
 
 Metodedelen bør inneholde informasjon om deltagerne, materialer eller apparater, prosedyrer og data-analyse (@carterRehabilitationResearchPrinciples2011). 
 
@@ -103,7 +98,7 @@ library(ggplot2)
 library(ggtext)
 library(rbbt)
 
-Tabell_Silva_et_al_2014 <- read_excel("filer/Tabell for inkluderte studier i Silva et al 2014.xlsx")
+Tabell_Silva_et_al_2014 <- read_excel("Tabell for inkluderte studier i Silva et al 2014.xlsx")
 
 
 ```
@@ -122,7 +117,7 @@ tab_header (title = "Tabell 1: Karakteristika i studiene til Silva et al. (2014)
 ```
 
 
-### Statistiske analyser
+## Statistiske analyser
 
 Tabell 1 viser ulike statistiske tester som ble brukt i de inkluderte studiene til @silvaInfluenceStrengthTraining2014.
 Tabellen viser også en fin fremstilling og sammendrag på hva som ble undersøkt og hvilken populasjon dette gjaldt.
@@ -141,7 +136,7 @@ I andre artikler jeg har sett på som i @monteiroEffectThreeDifferent2020 ble de
 
 
 
-## Resultat
+# Resultat
 
 DAPRE-teknikken og funksjonell trening ble funnet å være effektive til å forbedre quadriceps-forlengelsesstyrken og funksjonell ytelse som gange, balanse og trapper hos denne pasienten etter TKA over fem uker(@ardaliDailyAdjustableProgressive2014).
 
@@ -157,7 +152,7 @@ Tilslutt i resultatdelen ser vi at metaanalysen til @silvaInfluenceStrengthTrain
 
 
 
-## Konklusjon
+# Konklusjon
 Alle studiene jeg har sett på viser god effekt på muskelstyrkeforbedring ved bruk av styrketrening i denne aldergruppen. Allikevel viser det seg at høyere intensitet på styrketreningen gir bedre effekt enn moderat og lett intensitet. Det viser seg også at varigheten/treningsvolumet på styrketreningen er en viktig faktor for muskelstyrkeforbedring hos eldre. 
 Konklusjonen i metaanalysen til @silvaInfluenceStrengthTraining2014 er på høyeste nivå av bevis @ahnIntroductionSystematicReview2018 og dette gir informasjon om hva som er god styrketrening hos eldre. 
 Videre forskning på feltet trengs, f.eks. design på hvordan andre faktorer påvirker responsen på styrketrening. Som f.eks. sykdom eller skader, da dette er normale faktorer ved økende alder.
@@ -166,7 +161,9 @@ Videre forskning på feltet trengs, f.eks. design på hvordan andre faktorer på
 
 
 
+\newpage
 
+# Referanser
 
 
 

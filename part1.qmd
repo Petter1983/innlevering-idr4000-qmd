@@ -3,7 +3,7 @@
 <!-- Part 1: Descriptive statistics, reliability and validity, tools for reproducible data science -->
 
 ---
-title: "Reliabilitet"
+title: "Reliabilitet og reproduserbar dataanalyse"
 output: html_document
 editor_options: 
 chunk_output_type: console
@@ -22,7 +22,7 @@ library(gt)
 library(readxl)
 
 
-masterscience <- read_excel("arbeidskrav-1/arbeidskrav-1/Data/samlet/Formatert-komplett.xlsx")
+masterscience <- read_excel("filer/Formatert-komplett.xlsx")
 
 ```
 
