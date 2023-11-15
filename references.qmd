@@ -5,12 +5,12 @@
 
 
 ---
-title: "Referanser"
+title: "Eksamen IDR4000"
 output: html_document
 editor_options: 
 chunk_output_type: console
 linestretch: 1.5
-bibliography: Mitt bibliotek.bib
+bibliography: referanser.bib
 csl: apa.csl
 
 

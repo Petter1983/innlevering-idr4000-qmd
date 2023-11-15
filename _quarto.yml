@@ -16,7 +16,7 @@ book:
     - part7.qmd
     - references.qmd
 
-bibliography: Mitt bibliotek.bib
+bibliography: referanser.bib
 
 crossref: 
   fig-labels: arabic
