@@ -17,7 +17,8 @@ library(ggplot2)
 library(gt)
 library(readxl)
 
-masterscience <- read_excel("Data/samlet/Formatert-komplett.xlsx")
+
+masterscience <- read_excel("arbeidskrav-1/arbeidskrav-1/Data/samlet/Formatert-komplett.xlsx")
 
 ```
 
