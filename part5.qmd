@@ -22,7 +22,7 @@ editor_options:
 Jeg har valgt ut å se på effektene av styrketrening hos eldre. 
 Et litteratur søk via skolens google scholar og bibliotek ble gjort.
 Det er ulike studie design og de jeg endte opp med å bruke i denne oppgaven har ulike kvalitet for bevis. Meta-analyser, Randomiserte kontrollerte studier, case kontroll, case-kontroll studier og kasus-rapporter.
-Figur 1 i @ahnIntroductionSystematicReview2018 viser de ulike designene.
+Figur 1 i [@ahnIntroductionSystematicReview2018a] viser de ulike designene.
 På toppen av ligger de systematisk oversiktene og meta-analysene som samler alle mulige studier knyttet til et gitt tema og design, og gjennomgår og analyserer resultatene deres. En metaanalyse er en gyldig, objektiv og vitenskapelig metode for å analysere og kombinere ulike resultater. Vanligvis, for å oppnå mer pålitelige resultater, utføres en metaanalyse hovedsakelig på randomiserte kontrollerte studier (RCT), som har et høyt bevisnivå.
 Videre har jeg sett på kasus-kontroll studier, kasus studier og kasus rapporter.
 
@@ -32,15 +32,15 @@ I alle studiene er det en god introduksjon som gjør at man kjenner seg igjen i 
 
 Ifølge data fra FN vil verdens befolkning over 65 år øke fra 9.7% i 2022 til 16.4% i 2050. Fall hos eldre regnes som et av de alvorligste og mest kostbare folkehelseproblemene i når det gjelder sykelighet, dødelighet og enorme kostnader for helse- og sosialtjenester.
 
-Fall hos eldre er en utfordring og deles inn i ytre og indre faktorer. De ytre årsakene er vanligvis relatert til hjemmemiljøet som blant annet tepper, trapper og dårlig belysning. De indre faktorene er relatert til reduksjon i balanse- eller gangfunksjon, muskelsvakhet, nedsatt syn, nedsatt kognitive funksjon, sykdommer og bivirkninger av medisiner. Studier har vist at de mest effektive intervensjonene for å forebygge fall er basert på balansetrening og muskelstyrking i underekstremitetene. (@ishigakiEffectivenessMuscleStrengthening2014)
+Fall hos eldre er en utfordring og deles inn i ytre og indre faktorer. De ytre årsakene er vanligvis relatert til hjemmemiljøet som blant annet tepper, trapper og dårlig belysning. De indre faktorene er relatert til reduksjon i balanse- eller gangfunksjon, muskelsvakhet, nedsatt syn, nedsatt kognitive funksjon, sykdommer og bivirkninger av medisiner. Studier har vist at de mest effektive intervensjonene for å forebygge fall er basert på balansetrening og muskelstyrking i underekstremitetene [@ishigakiEffectivenessMuscleStrengthening2014a]. 
 
-Muskelstyrke er vurdert til en svært viktig faktor for fysisk form og livskvalitet. For eldre er styrke trening viktig for å opprettholde funksjonsevne da styrke progressivt reduseres ved økende alder som påvirker evnen til å gjøre lystbetonte hverdagsaktiviteter (@silvaInfluenceStrengthTraining2014)
+Muskelstyrke er vurdert til en svært viktig faktor for fysisk form og livskvalitet. For eldre er styrke trening viktig for å opprettholde funksjonsevne da styrke progressivt reduseres ved økende alder som påvirker evnen til å gjøre lystbetonte hverdagsaktiviteter  [@silvaInfluenceStrengthTraining2014a].
 
-I artikkelen til @benekaResistanceTrainingEffects2005 blir det beskrevet at muskelstyrke reduseres med 1-2% årlig hos personer over 65 år med en høyere forekomst på underekstremitene versus overekstremitetene. I @ardaliDailyAdjustableProgressive2014 blir det beskrevet en reduksjon i styrke på 1.5% i alderen 50 til 60 år,og deretter 3% reduksjon i årene etter fylte 60 år.
+I artikkelen til [@benekaResistanceTrainingEffects2005a] blir det beskrevet at muskelstyrke reduseres med 1-2% årlig hos personer over 65 år med en høyere forekomst på underekstremitene versus overekstremitetene. I [@ardaliDailyAdjustableProgressive2014a] blir det beskrevet en reduksjon i styrke på 1.5% i alderen 50 til 60 år,og deretter 3% reduksjon i årene etter fylte 60 år.
 
-Spesielt styrke i m.quadriceps har blitt undersøkt og viser progressiv reduksjon i muskelstyrke og det er sett at denne reduksjonen i styrke kan reverseres med øvelser. Forbedring i styrke ved hjelp av styrketrening er sett ved flere ulike typer trening: isokinetisk, isometrisk og isotonisk trening. På studier har man sett en slik treningseffekt med treningsfrekvens på 2-3 ganger pr uke og varighet på 8-24 uker (@benekaResistanceTrainingEffects2005).
+Spesielt styrke i m.quadriceps har blitt undersøkt og viser progressiv reduksjon i muskelstyrke og det er sett at denne reduksjonen i styrke kan reverseres med øvelser. Forbedring i styrke ved hjelp av styrketrening er sett ved flere ulike typer trening: isokinetisk, isometrisk og isotonisk trening. På studier har man sett en slik treningseffekt med treningsfrekvens på 2-3 ganger pr uke og varighet på 8-24 uker [@benekaResistanceTrainingEffects2005a].
 
-I følge @ardaliDailyAdjustableProgressive2014 viser reduksjon i styrke i m.quadriceps en langsommere gang hastighet ved vanlig gange og ved trappegange, samt økende risiko for fall.
+I følge [@ardaliDailyAdjustableProgressive2014a] viser reduksjon i styrke i m.quadriceps en langsommere gang hastighet ved vanlig gange og ved trappegange, samt økende risiko for fall.
 
 
 
@@ -52,7 +52,7 @@ Studier har gjerne et primær spørsmål man ønsker å undersøke. Samtidig vel
 ### Sekundære spørsmål
 
 Det er mange tverrsnittsstudier og kohortstudier (@hulleyDesigningClinicalResearch2013a) innenfor feltet styrketrening for eldre hvor målet på studiene bl.a. er å se på økende muskelstyrke ved en intervensjon. 
-I @ishigakiEffectivenessMuscleStrengthening2014 har de sett på flere studier og de konkluderer med at den metodologiske kvaliteten på studiene på dette området viser god effekt på fall forebygging hos eldre ved bruk av styrketrening på underekstremitetene. Allikevel er intervensjonene på mange studier dårlig beskrevet.
+I [@ishigakiEffectivenessMuscleStrengthening2014a] har de sett på flere studier og de konkluderer med at den metodologiske kvaliteten på studiene på dette området viser god effekt på fall forebygging hos eldre ved bruk av styrketrening på underekstremitetene. Allikevel er intervensjonene på mange studier dårlig beskrevet.
 
 
 ## Design
@@ -60,12 +60,12 @@ I @ishigakiEffectivenessMuscleStrengthening2014 har de sett på flere studier og
 Metodedelen bør inneholde informasjon om deltagerne, materialer eller apparater, prosedyrer og data-analyse (@carterRehabilitationResearchPrinciples2011). 
 
 
-@ardaliDailyAdjustableProgressive2014 er en kasusrapport med et godt beskrevet studie design. Den er av typen forskning er plassert nederst i hierarkiet av klinisk bevis (@ahnIntroductionSystematicReview2018a). Hensikten med denne kasusrapporten er å introdusere og beskrive en tidlig bruk av en protoll for daglig progressiv styrketrening (DAPRE protokoll) som et supplement til standard rehabilitering for å maksimere quadriceps muskelstyrke og funksjonell ytelse hos en eldre hjemmebundet pasient etter en ny operert totalprotese i kne.
+[@ardaliDailyAdjustableProgressive2014a] er en kasusrapport med et godt beskrevet studie design. Den er av typen forskning er plassert nederst i hierarkiet av klinisk bevis (@ahnIntroductionSystematicReview2018a). Hensikten med denne kasusrapporten er å introdusere og beskrive en tidlig bruk av en protoll for daglig progressiv styrketrening (DAPRE protokoll) som et supplement til standard rehabilitering for å maksimere quadriceps muskelstyrke og funksjonell ytelse hos en eldre hjemmebundet pasient etter en ny operert totalprotese i kne.
 
-DAPRE er en strukturert progressiv styrketeknikk utviklet klinisk av Knight (1990) i et forsøk på å gi et objektivt middel for å øke motstanden samtidig med styrkeøkninger under knerehabilitering etter skade eller operasjon (@knightQuadricepsStrengtheningDAPRE1990). DAPRE-systemet bruker 4 serier med 5-RM til 7-RM (repetisjon maksimum) med ulike styrkeøvelser. Nøkkelen til DAPRE-teknikken er den konstante tilbakemeldingen som pasienten og terapeuten får under styrkerehabiliteringsøkter. Teknikken tillater dermed individuelle forskjeller i styrkeøkninger og gir en objektiv metode for å øke motstanden i takt med styrkeøkninger (@knightQuadricepsStrengtheningDAPRE1990).
+DAPRE er en strukturert progressiv styrketeknikk utviklet klinisk av Knight (1990) i et forsøk på å gi et objektivt middel for å øke motstanden samtidig med styrkeøkninger under knerehabilitering etter skade eller operasjon [@knightQuadricepsStrengtheningDAPRE1990a]. DAPRE-systemet bruker 4 serier med 5-RM til 7-RM (repetisjon maksimum) med ulike styrkeøvelser. Nøkkelen til DAPRE-teknikken er den konstante tilbakemeldingen som pasienten og terapeuten får under styrkerehabiliteringsøkter. Teknikken tillater dermed individuelle forskjeller i styrkeøkninger og gir en objektiv metode for å øke motstanden i takt med styrkeøkninger (@knightQuadricepsStrengtheningDAPRE1990a).
 
 
-I meta-analysen til @csapoEffectsResistanceTraining2016 sammenlignet de effekten mellom tung (~80% av 1RM) og lett/moderat styrketrening(~45% av 1 RM). Spørsmålene de ønsket å besvare var om disse ville øke skjelettmuskelmasse (målt ved ultralyd) og styrke (målt ved bl.a. isometrisk leg extension og ved nedtrekk) hos eldre. For å hente artiklene til denne metaanalysen ble det systematisk søkt i PUBMED og MEDLINE. 
+I meta-analysen til @csapoEffectsResistanceTraining2016a sammenlignet de effekten mellom tung (~80% av 1RM) og lett/moderat styrketrening(~45% av 1 RM). Spørsmålene de ønsket å besvare var om disse ville øke skjelettmuskelmasse (målt ved ultralyd) og styrke (målt ved bl.a. isometrisk leg extension og ved nedtrekk) hos eldre. For å hente artiklene til denne metaanalysen ble det systematisk søkt i PUBMED og MEDLINE. 
 Protokollene for tung styrketrening var gjerne 3 x 8 reps eller 5 x 4 reps. For lett/moderat styrketrening var dette gjerne 3 x 15 eller 3 x 20 reps.
 
 I følge @hulleyDesigningClinicalResearch2013a  kan metaanalyser øke muligheten til å svare på et forskningsspørsmål, men har den ulempen at de ikke inkluderer data på individnivå da de ikke kan indiduelt tilpasse belastning som ved kasusrapporter. 
@@ -75,10 +75,10 @@ Systematiske oversikter og metaanalyser presenterer resultater ved å kombinere 
 @monteiroEffectThreeDifferent2020 er en longitudinell randomisert kontrollert studie. Deltakerne gjennomgikk et treningsprogram tre ganger i uken i åtte måneder. Målet var å vurdere effekten av tre forskjellige treningsprotokoller i quadriceps og hamstrings isokinetisk muskelstyrke hos uavhengige eldre kvinner. 80 kvinner ble rekruttert til denne studien og delt inn i fire grupper på tjue personer: kontrollgruppen, multikomponentgruppen, muskelkraftgruppen og muskelstyrkegruppen. Den isokinetiske styrken ble målt i begge underekstremitetene med et dynamometer ved 60°/s og 180°/s.
 
 
-@benekaResistanceTrainingEffects2005 sin case-kontroll studie hadde to mål. Det første målet med denne studien var å bestemme effekten av styrketreningsintensitet på styrkeutviklingen hos friske inaktive eldre etter en treningsperiode på 16 uker.
+@benekaResistanceTrainingEffects2005a sin case-kontroll studie hadde to mål. Det første målet med denne studien var å bestemme effekten av styrketreningsintensitet på styrkeutviklingen hos friske inaktive eldre etter en treningsperiode på 16 uker.
 Det andre målet var å teste hypotesen om at størrelsen på de intensitetsrelaterte effektene er relatert til leddets vinkelhastighet, og det tredje målet var å undersøke om motstandstrening gir kjønnsspesifikke tilpasninger eller ikke.
 
-I @silvaInfluenceStrengthTraining2014 er en meta-analyse hvor de ønsker å finne den optimale dosen eller mengden styrketrening som vil øke styrken hos personer over 55 år. De undersøkte et dose-responsforhold mellom styrkeforbedring og treningsvariablene; treningsvolum (antall repetisjoner og sett per øvelse), treningsintensitet (% av 1 RM) og treningsvarighet.
+I @silvaInfluenceStrengthTraining2014a er en meta-analyse hvor de ønsker å finne den optimale dosen eller mengden styrketrening som vil øke styrken hos personer over 55 år. De undersøkte et dose-responsforhold mellom styrkeforbedring og treningsvariablene; treningsvolum (antall repetisjoner og sett per øvelse), treningsintensitet (% av 1 RM) og treningsvarighet.
 
 De har brukt den standardiserte gjennomsnittlige forskjellen (SMD) som effektstørrelsesindeks til metaanalysen. SMD ble beregnet ved å bruke forskjeller i styrkeforbedring fra baseline mellom forsøkspersoner i styrketreningsgruppen og kontrollgruppen. Effektstørrelsesberegningen var basert på gjennomsnittet, 
 
@@ -124,18 +124,18 @@ tab_header (title = "Tabell 1: Karakteristika i studiene til Silva et al. (2014)
 
 ### Statistiske analyser
 
-Tabell 1 viser ulike statistiske tester som ble brukt i de inkluderte studiene til @silvaInfluenceStrengthTraining2014.
+Tabell 1 viser ulike statistiske tester som ble brukt i de inkluderte studiene til @silvaInfluenceStrengthTraining2014a.
 Tabellen viser også en fin fremstilling og sammendrag på hva som ble undersøkt og hvilken populasjon dette gjaldt.
-I @silvaInfluenceStrengthTraining2014 nevner de også effektstørrelse innenfor en meta-regresjon som er hvordan forskjellige faktorer påvirker effektstørrelsen på tvers av ulike studier som inngår i en meta-analyse.  
+I @silvaInfluenceStrengthTraining2014a nevner de også effektstørrelse innenfor en meta-regresjon som er hvordan forskjellige faktorer påvirker effektstørrelsen på tvers av ulike studier som inngår i en meta-analyse.  
 Effektstørrelse er et uttrykk for effekten av en intervensjon som f.eks. en gjennomsnittlig forskjell. 
 
-Analyse av variasjon (ANOVA) som er beskrevet i @carterRehabilitationResearchPrinciples2011 er en parametrisk statistisk test hvor variansen brukes for å sjekke riktigheten. I ANOVA test kan flere variabler testes (f.eks. forskjellen i snitt på flere enn to grupper). ANOVA test er en null hypotese signifikans test utviklet av Ronald Fischer i 1918. En F-verdi brukes for å beregne sannsynlighet. I @benekaResistanceTrainingEffects2005 ble ANOVA og MANOVA testene brukt.
+Analyse av variasjon (ANOVA) som er beskrevet i @carterRehabilitationResearchPrinciples2011 er en parametrisk statistisk test hvor variansen brukes for å sjekke riktigheten. I ANOVA test kan flere variabler testes (f.eks. forskjellen i snitt på flere enn to grupper). ANOVA test er en null hypotese signifikans test utviklet av Ronald Fischer i 1918. En F-verdi brukes for å beregne sannsynlighet. I @benekaResistanceTrainingEffects2005a ble ANOVA og MANOVA testene brukt.
 
 Student t-test er statistisk null hypotese signifikans test hvor kun 2 variabler testes. For eksempel å teste effekten av en ny behandling eller trening og undersøke effekt størrelsen @spiegelhalterArtStatisticsLearning2020.
 
 Analyse av kovariasjon (ANCOVA) er en statistisk analyse med høy styrke som er beskrevet i @vickersUsePercentageChange2001a. Den kombinerer ANOVA test og lineær regresjonsanalyse. ANCOVA sammenligner endringsscore og estimatene viser de justerte forskjellene mellom gruppene hvis de hadde nøyaktig samme utgangspunkt.
 
-Pearsons korrelasjonskoeffisient måler styrken av den lineære sammenhengen mellom to variabler @spiegelhalterArtStatisticsLearning2020. I kasus rapporten til@ardaliDailyAdjustableProgressive2014 bruker de Pearsons r som mål på effektstørrelse. Pearsons r kan fint brukes i enklere sammenhenger, mens som mål på sammenhenger mellom flere variabler er den ikke egnet.
+Pearsons korrelasjonskoeffisient måler styrken av den lineære sammenhengen mellom to variabler @spiegelhalterArtStatisticsLearning2020. I kasus rapporten til @ardaliDailyAdjustableProgressive2014a bruker de Pearsons r som mål på effektstørrelse. Pearsons r kan fint brukes i enklere sammenhenger, mens som mål på sammenhenger mellom flere variabler er den ikke egnet.
 
 I andre artikler jeg har sett på som i @monteiroEffectThreeDifferent2020 ble den ikke-parametriske Kolmogorov-Smirnov-testen brukt for å se om en test er signifikant forskjellig fra normalfordelingen og Levene-testen gjorde det mulig å evaluere homoskedastisiteten. De brukte også ANOVA for å vurdere de fire gruppenes forskjeller i de to ulike momentene. Testen gjorde det mulig å evaluere forskjellene i hver gruppe og øyeblikk. Bonferronis korreksjon ble også brukt her.
 
@@ -143,15 +143,15 @@ I andre artikler jeg har sett på som i @monteiroEffectThreeDifferent2020 ble de
 
 ## Resultat
 
-DAPRE-teknikken og funksjonell trening ble funnet å være effektive til å forbedre quadriceps-forlengelsesstyrken og funksjonell ytelse som gange, balanse og trapper hos denne pasienten etter TKA over fem uker(@ardaliDailyAdjustableProgressive2014).
+DAPRE-teknikken og funksjonell trening ble funnet å være effektive til å forbedre quadriceps-forlengelsesstyrken og funksjonell ytelse som gange, balanse og trapper hos denne pasienten etter TKA over fem uker [@ardaliDailyAdjustableProgressive2014a].
 
-Ved å oppsummering av resultatene til @csapoEffectsResistanceTraining2016 fant de at treningsprogrammer med både høy og lettere belastning indusere betydelig styrkeøkning sammenlignet med ikke-treningskontroller. På spørsmål 2 så de en gjennomsnittlig økning i muskelstørrelse på 11% på gruppen som trente tung styrketrening og 9% med gruppen med lett/moderat styrketrening.
+Ved å oppsummering av resultatene til @csapoEffectsResistanceTraining2016a fant de at treningsprogrammer med både høy og lettere belastning indusere betydelig styrkeøkning sammenlignet med ikke-treningskontroller. På spørsmål 2 så de en gjennomsnittlig økning i muskelstørrelse på 11% på gruppen som trente tung styrketrening og 9% med gruppen med lett/moderat styrketrening.
 
 Styrketreningen med 3-4 sett med 3-6 repetisjoner (40-60% av 1RM) med 3-5 min pause ser ut til å være den mest effektive for å øke den isokinetiske styrken hos eldre uavhengige kvinner. Alle treningsprogrammene ser ut til å bidra til å redusere det aldersrelaterte tapet på isokinetisk styrke @monteiroEffectThreeDifferent2020. 
 
-HI (90% av 1 RM) -treningsprotokoll viste ifølge @ardaliDailyAdjustableProgressive2014 den beste forbedringen av kneekstensorens isokinetiske kraft sammenlignet med LI (50% av 1 RM) eller MI (70% av 1 RM) ved alle testhastigheter. Imidlertid hadde også treningsgruppene med moderat og lav intensitet også en betydelig styrkeforbedring.
+HI (90% av 1 RM) -treningsprotokoll viste ifølge @ardaliDailyAdjustableProgressive2014a den beste forbedringen av kneekstensorens isokinetiske kraft sammenlignet med LI (50% av 1 RM) eller MI (70% av 1 RM) ved alle testhastigheter. Imidlertid hadde også treningsgruppene med moderat og lav intensitet også en betydelig styrkeforbedring.
 
-Tilslutt i resultatdelen ser vi at metaanalysen til @silvaInfluenceStrengthTraining2014 viser at flere ulike treningsvariabler (intensitet, antall sett per muskelgruppe, ukentlig treningsfrekvens) kan være like effektive for å forbedre styrken til friske stillesittende eldre mennesker. Den eneste treningsvariabelen som viste en signifikant effektstørrelse for styrkeøkning, innenfor en meta-regresjon inkludert de andre variablene, var treningsvarighet. Dette funnet indikerer at jo lengre varighet av styrketreningsprogrammer, desto større styrkeøkning oppnår eldre individer, uavhengig av ulike kombinasjoner av treningsintensitet, frekvens eller antall sett.
+Tilslutt i resultatdelen ser vi at metaanalysen til @silvaInfluenceStrengthTraining2014a viser at flere ulike treningsvariabler (intensitet, antall sett per muskelgruppe, ukentlig treningsfrekvens) kan være like effektive for å forbedre styrken til friske stillesittende eldre mennesker. Den eneste treningsvariabelen som viste en signifikant effektstørrelse for styrkeøkning, innenfor en meta-regresjon inkludert de andre variablene, var treningsvarighet. Dette funnet indikerer at jo lengre varighet av styrketreningsprogrammer, desto større styrkeøkning oppnår eldre individer, uavhengig av ulike kombinasjoner av treningsintensitet, frekvens eller antall sett.
 
 
 
@@ -159,7 +159,7 @@ Tilslutt i resultatdelen ser vi at metaanalysen til @silvaInfluenceStrengthTrain
 
 ## Konklusjon
 Alle studiene jeg har sett på viser god effekt på muskelstyrkeforbedring ved bruk av styrketrening i denne aldergruppen. Allikevel viser det seg at høyere intensitet på styrketreningen gir bedre effekt enn moderat og lett intensitet. Det viser seg også at varigheten/treningsvolumet på styrketreningen er en viktig faktor for muskelstyrkeforbedring hos eldre. 
-Konklusjonen i metaanalysen til @silvaInfluenceStrengthTraining2014 er på høyeste nivå av bevis @ahnIntroductionSystematicReview2018 og dette gir informasjon om hva som er god styrketrening hos eldre. 
+Konklusjonen i metaanalysen til @silvaInfluenceStrengthTraining2014a er på høyeste nivå av bevis @ahnIntroductionSystematicReview2018a og dette gir informasjon om hva som er god styrketrening hos eldre. 
 Videre forskning på feltet trengs, f.eks. design på hvordan andre faktorer påvirker responsen på styrketrening. Som f.eks. sykdom eller skader, da dette er normale faktorer ved økende alder.
 
 
